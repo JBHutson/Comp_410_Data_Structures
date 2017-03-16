@@ -40,7 +40,7 @@ public class MinBinHeap implements Heap_Interface {
 	  int returnedSize = size;
 	  return returnedSize;
   }
-  public void build(EntryPair [] entries){                  //code adapted from text    
+  public void build(EntryPair [] entries){                      
 	 size = entries.length;
 	  int i = 1;
 	  for (EntryPair entry : entries){
@@ -50,7 +50,7 @@ public class MinBinHeap implements Heap_Interface {
 		  percolateDown(j);
 	  }
   }
-  private void percolateDown( int hole ){                  //code adapted from Text
+  private void percolateDown( int hole ){                 
   int child;
   EntryPair tmp = array[ hole ];
  
