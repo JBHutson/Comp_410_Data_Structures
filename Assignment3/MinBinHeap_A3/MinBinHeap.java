@@ -14,7 +14,7 @@ public class MinBinHeap implements Heap_Interface {
                                              //of child/parent computations...
                                              //the book/animation page both do this.
   }
-  public void insert(EntryPair entry){              //code adapted from text
+  public void insert(EntryPair entry){              
 	 int hole = ++size;
 	 for (array[ 0 ] = entry; entry.getPriority() < array[ hole / 2].getPriority(); hole /= 2){
 		 array[ hole ] = array[ hole / 2];
