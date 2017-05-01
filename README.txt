@@ -1,4 +1,4 @@
-# Comp_411_Data_Structures
+# Comp_410_Data_Structures
 Log of all code written to implement varies data structures
 
 LinkedList_A1: Code for a linked list 
