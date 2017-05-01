@@ -1,5 +1,5 @@
 # Comp_410_Data_Structures
-Log of all code written to implement varies data structures
+Log of all code written to implement various data structures
 
 LinkedList_A1: Code for a linked list 
 BST_A2: Code for basic binary search tree
